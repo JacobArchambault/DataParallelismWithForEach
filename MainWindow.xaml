@@ -21,11 +21,11 @@
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             <Button Name="cmdCancel" Grid.Row="0" Grid.Column="0" Margin="10,10,0,10" 
-                    Click="cmdCancel_Click">
+                    Click="CmdCancel_Click">
                 Cancel
             </Button>
             <Button Name="cmdProcess" Grid.Row="0" Grid.Column="2" Margin="0,10,10,10" 
-                    Click="cmdProcess_Click">
+                    Click="CmdProcess_Click">
                 Click to Flip Your Images!
             </Button>
         </Grid>
